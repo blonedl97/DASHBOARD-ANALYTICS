@@ -1,1 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #00BFFF;
+}
+
+.dashboard {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #00BFFF;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 1 45%;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 191, 255, 0.2);
+    color: #00BFFF;
+}
+
+.card h2 {
+    color: #00BFFF;
+}
+
+#current-value {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #00BFFF;
+}
 
