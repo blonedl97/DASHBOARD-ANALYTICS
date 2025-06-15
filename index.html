@@ -1,1 +1,29 @@
-
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard in Tempo Reale</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard">
+        <header>
+            <h1>Dashboard in Tempo Reale</h1>
+        </header>
+        <main>
+            <div class="card">
+                <h2>Valore Corrente</h2>
+                <div id="current-value">Caricamento...</div>
+            </div>
+            <div class="card">
+                <h2>Grafico in Tempo Reale</h2>
+                <canvas id="realtimeChart"></canvas>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- dashboard analytics de la valeur di bitcon avec utilisatio API Rest coingecko -->
